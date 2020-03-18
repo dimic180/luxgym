@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+h3 {
+letter-spacing:2px;
+}
+h5 {
+font-size:16pt;
+letter-spacing: 3px;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: LightYellow;
+}
+
+.glava {
+  padding: 20px;
+  text-align: center;
+  background-image:url("gym1.png");
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+.glava h1 {
+  padding-right:900px;
+  font-size: 64px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: LightYellow;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+@font-face {
+font-family:secondfont;
+src: url(OstrichSansDashed-Medium.otf);
+}
+.aboutme {
+letter-spacing:1px;
+}
+.aboutme , h3 , h5{
+font-family:secondfont;
+}
+@font-face {
+  font-family: firstfont;
+  src: url(AbrilFatface-Regular.otf);
+}
+
+.p {
+  font-family: firstfont;
+  font-size:14pt;
+  padding-bottom:60px;
+}
+.p2 {
+padding-top:25px;
+}
+.plan {
+  display: block;
+  visibility: hidden;
+   padding:5px;
+  height:40px;
+  width: 50px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  }
+  a:hover .plan {
+  visibility: visible;
+}
+.text2 {
+  position: relative;
+  display: inline-block;
+  visibility: hidden;
+   padding:5px;
+  height:40px;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 2;
+  }
+  a:hover .text2 {
+  visibility: visible;
+}
+.topnav a:hover {
+  background-color: LightYellow;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+.rightcolumn {
+  float: left;
+  width: 30%;
+  background-color: LightGray;
+  padding-left: 20px;
+}
+.laznaslika1{
+color:white;
+padding: 10px;
+background-color:Black;
+margin-left:10px;
+margin-right:30px;
+}
+.laznaslika2 {
+color:white;
+padding: 10px;
+background-color:Black;
+margin-left:10px;
+margin-right:30px;
+}
+.laznaslika3 {
+padding-left:15px;
+padding: 30px;
+background-color:Black;
+margin-bottom:25px;
+margin-left:10px;
+margin-right:30px;
+}
+.laznaslika4 {
+color:white;
+padding: 10px;
+background-color:Black;
+margin-left:10px;
+margin-right:30px;
+}
+.fakeimg1 {
+padding:20px;
+background-image:url("covek2.png")
+
+}
+.red:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer a{
+color:LightYellow;
+}
+.footer {
+border-top:1px groove;
+  padding:20px;
+  text-align: center;
+  background:LightYellow;
+  margin-top: 20px;
+  display: block;
+}
+.naslov2 {
+letter-spacing:2px;
+color:gray;
+font-family:secondfont;
+font-size:16pt;
+padding-left:50px;
+padding-bottom:30px;
+}
+.dalje a{
+a:link {
+color:black;
+}
+}
+.dalje {
+border:2px solid black;
+margin-top:15px;
+margin-right:100px;
+padding:5px;
+background-color:black;
+text-decoration:none;
+}
+
+</style>
+</head>
+<body>
+
+<div class="glava">
+  <h1 class="naslov"> <img src="logo6.png"></h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  <a href="#"> <img src="insta.png" width="30" height="30"> </a>
+  <a href="#"> <img src="phone.png" width="30" height="30"> <span class="text2"> Your Phone </span> </a>
+  <a href="#"> <img src="email.png" width="40" height="30"> </a>
+  <a href="#" style="float:right"> <img src="plan.png" width="30" height="40"> <span class="plan"> Plan</span>  </a>
+</div>
+
+<div class="red">
+  <div class="leftcolumn">
+    <div>
+      <h2> <b> HOW TO GET LARGE STRENGTH? </b> </h2>
+      <h5> <i> You  have  to  be  patient , click  on </i>  PLAN   </h5>
+      <div> <img src="man.png" style="height:500px;"></div>
+      <p> Welcome to the official site "LuxGym" </p>
+      <p class="p"> If you are lean and want muscle mass or if you are obese and want to lose weight well.
+        You can take a workout plan and program and you can also take a diet that suits your program.  
+      </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div>
+      <h2 class="aboutme">PERSONAL TRAINER</h2>
+      <div class="fakeimg1" style="height:100px;"> </div>
+      <p class="p2"> A personal trainer helps you to become physically stronger.
+	  If you need a personal trainer contact us via:
+	  <ul  style="list-style-type:square;"> 
+	  <li> <i> Instagram </i> </li>
+	  <li> <i> E-mail </i> </li>
+	  <li> <i> Facebook </i> </li> </p>
+    </div>
+    <div>
+      <h3> Complete the survey </h3>
+      <div class="laznaslika1"><p> <form action="">
+      <label for="fname">Enter your first name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      </form>  </p> </div>
+      <div class="laznaslika2"><p> <form action="">
+      <label for="lname">Enter your last name:</label><br>
+      <input type="text" id="lname" name="lname"><br><br>
+      </form>  </p> </div>
+	  <div class="laznaslika4"><p> You want to: </p> <form action="">
+      <form>
+      <input type="radio" id="lose" name="gender" value="lose">
+      <label for="lose"> Lose weight </label><br>
+      <input type="radio" id="gain" name="gender" value="gain">
+      <label for="gain"> Gain weight </label><br>
+	  </form>  </p></div>
+      <div class="laznaslika3"><p> <form action="">
+      <input type="submit" value="Confirm">	  
+	  </form>  </div>
+	  
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2 class="naslov2" style="float:left;"> <a href="https://www.google.com/maps/place/Balkans/@41.0691152,12.5754622,5z/data=!3m1!4b1!4m5!3m4!1s0x13568040c211aea7:0xfdff7f63490b475d!8m2!3d41.8101472!4d21.0937311" style="text-decoration:none";> <img src="maps.png" width="40" height="35">    </a>  </h2>
+  <div class="dalje" style="float:right;"> <a href="#" style="text-decoration:none";> <b> Special </b> </div>
+</body>
+</html>
