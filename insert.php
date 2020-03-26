@@ -9,12 +9,6 @@
 		$message="Name: ".$name. "\n"."Email: ".$email. "\n". "Wrote the following: "."\n\n".
 		$headers="From: ".$email;
 		
-	if(mail($to, $subject,$message,$headers)){
-		echo "<h1> Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
-	}
-	else {
-		echo "Something went wrong!";
-		
-	}
+	mail($to, $subject,$message,$headers);
   }
 ?> 
